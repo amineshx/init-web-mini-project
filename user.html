@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>user</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="./img/logo.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="./css/user-admin.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-fluid position-relative d-flex p-0">
+      <!-- Sidebar Start -->
+      <div class="sidebar pe-4 pb-3">
+        <nav class="navbar bg-secondary navbar-dark">
+          <a href="./user.html" class="navbar-brand mx-4 mb-3">
+            <h3 class="text-primary">
+              <i class="fa fa-user-edit me-2"></i>ctf shx
+            </h3>
+          </a>
+          <div class="d-flex align-items-center ms-4 mb-4">
+            <div class="position-relative">
+              <img
+                class="rounded-circle"
+                src=""
+                alt=""
+                style="width: 40px; height: 40px"
+                id="pic"
+              />
+              <div
+                class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"
+              ></div>
+            </div>
+            <div class="ms-3">
+              <h6 class="mb-0">user</h6>
+              <span>user</span>
+            </div>
+          </div>
+          <div class="navbar-nav w-100">
+            <a href="./user.html" class="nav-item nav-link active"
+              ><i class="fa fa-tachometer-alt me-2"></i>Challenges</a
+            >
+          </div>
+        </nav>
+      </div>
+      <!-- Sidebar End -->
+
+      <!-- Content Start -->
+      <div class="content">
+        <!-- Navbar Start -->
+        <nav
+          class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0"
+        >
+          <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+            <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+          </a>
+          <a href="#" class="sidebar-toggler flex-shrink-0">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div class="navbar-nav align-items-center ms-auto">
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                <img
+                  class="rounded-circle me-lg-2"
+                  src=""
+                  alt=""
+                  style="width: 40px; height: 40px"
+                />
+                <span class="d-none d-lg-inline-flex">user</span>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0"
+              >
+                <a href="./profile.html" class="dropdown-item">My Profile</a>
+                <a class="dropdown-item" onclick="deleteCookie()">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Recent Sales Start -->
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Obedient Cat</h6>
+              <a href="">5 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              This file has a flag in plain sight (aka "in-the-clear").
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-Any hints about entering a command into the Terminal (such as
+              the next one), will start with a '$'... everything after the
+              dollar sign will be typed (or copy and pasted) into your
+              Terminal.<br />
+              2)-To get the file accessible in your shell, enter the following
+              in the Terminal prompt:<br />
+              $ wget
+              https://mercury.picoctf.net/static/217686fc11d733b80be62dcfcfca6c75/flag<br />
+              3)- $ man cat
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Obedient-Cat"
+            />
+            <button class="button" onclick="Obedient()" id="myButton1">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Mod 26</h6>
+              <a href="">10 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              Cryptography can be easy, do you know what ROT13 is?<br />
+              cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_MAZyqFQj}
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-This can be solved online if you don't want to do it by hand!
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Mod-26"
+            />
+            <button class="button" onclick="mod()" id="myButton2">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Python Wrangling</h6>
+              <a href="">10 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              Python scripts are invoked kind of like programs in the
+              Terminal... Can you run this Python script using
+              <a
+                href="https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/pw.txt"
+                target="_blank"
+                >this password</a
+              >
+              to get
+              <a
+                href="https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/flag.txt.en"
+                target="_blank"
+                >the flag</a
+              >?
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-Get the Python script accessible in your shell by entering the
+              following command in the Terminal prompt:<br />
+              $ wget
+              https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/ende.py<br />
+              2)- $man python
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Python-Wrangling"
+            />
+            <button class="button" onclick="python()" id="myButton3">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Wave a flag</h6>
+              <a href="">10 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              Can you invoke help flags for a tool or binary? This program has
+              extraordinarily helpful information...
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-This program will only work in the webshell or another Linux
+              computer. <br />
+              2)- To get the file accessible in your shell, enter the following
+              in the Terminal prompt: <br />
+              $ wget
+              https://mercury.picoctf.net/static/a14be2648c73e3cda5fc8490a2f476af/warm
+              <br />
+              3)-Run this program by entering the following in the Terminal
+              prompt:<br />
+              $ ./warm,<br />
+              but you'll first have to make it executable with<br />
+              $ chmod +x warm <br />
+              4)- -h and --help are the most common arguments to give to
+              programs to get more information from them! <br />
+              5)-Not every program implements help features like -h and --help.
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Wave-a-flag"
+            />
+            <button class="button" onclick="wave()" id="myButton4">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">information</h6>
+              <a href="">10 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              Files can always be changed in a secret way. Can you find the
+              flag?<br />
+              <a
+                href="//mercury.picoctf.net/static/b4d62f6e431dc8e563309ea8c33a06b3/cat.jpg"
+                target="_blank"
+                >cat.jpg</a
+              >
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-Look at the details of the file<br />
+              2)- Make sure to submit the flag as picoCTF{XXXXX}
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="information"
+            />
+            <button class="button" onclick="information()" id="myButton5">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Nice Netact</h6>
+              <a href="">15 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              There is a nice program that you can talk to by using this command
+              in a shell:<br />
+              $ nc mercury.picoctf.net 43239 <br />
+              , but it doesn't speak English...
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              1)-what do u know about ascii ?
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Nice-Netact"
+            />
+            <button class="button" onclick="netact()" id="myButton6">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid pt-4 px-4">
+          <div class="bg-secondary text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <h6 class="mb-0">Static ain't always noise</h6>
+              <a href="">20 points</a>
+            </div>
+            <p>
+              <strong>Description:</strong><br />
+              Can you look at the data in this binary:<br />
+              <a
+                href="//mercury.picoctf.net/static/bc72945175d643626d6ea9a689672dbd/static"
+                target="_blank"
+                >static</a
+              ><br />
+              This
+              <a
+                href="//mercury.picoctf.net/static/bc72945175d643626d6ea9a689672dbd/ltdis.sh"
+                target="_blank"
+                >BASH script</a
+              >
+              might help!<br />
+            </p>
+            <p>
+              <strong>hints:</strong><br />
+              not this time
+            </p>
+            <input
+              class="input-flag"
+              type="text"
+              placeholder="picoCTF{FLAG}"
+              id="Static"
+            />
+            <button class="button" onclick="static()" id="myButton7">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">SUBMIT FLAG</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <!-- Recent Sales End -->
+      </div>
+      <!-- Content End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="to-top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a2fa536777.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>

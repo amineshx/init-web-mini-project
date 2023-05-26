@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-bluish {
+    color: #5969F6;
+    margin-left: 2rem;
+}
+h2 {
+    font-size: 1.5556rem;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    margin-bottom: 1rem;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+}
+.offset-1 {
+    margin-left: 8.3333333333%;
+}
+.learning-category {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/category-bg.png");
+    display: inline-flex;
+    margin: 20px;
+    color: #fff;
+    font-size: 1.11111rem;
+    padding: 10px;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
