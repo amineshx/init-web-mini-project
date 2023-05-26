@@ -21,15 +21,13 @@ function LoginUser() {
       // Set a cookie for the session
       document.cookie = 'loggedInUser=' + encodeURIComponent(username) + '; SameSite=None; Secure';
 
-    
-      // Redirect to another page
        window.location.href = "/user.html";
     } else {
-      // User not found or invalid credentials, handle the error
       alert('Invalid username or password!');
-      // You can choose to perform any other actions here, such as displaying an error message or clearing the input fields.
+      
     }
 }
+  
   
 
 
