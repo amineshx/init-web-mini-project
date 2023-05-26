@@ -22,7 +22,7 @@ var foundUser = null;
             users[j] = foundUser;
             localStorage.setItem('users', JSON.stringify(users));
             alert("your password has changed ");
-            window.location.href= "../sign-up.html";
+            window.location.href= "sign-up.html";
         }
     } 
 
