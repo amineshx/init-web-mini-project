@@ -43,7 +43,7 @@ p{
     width: 200px;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/category-bg.png");
+    background-image: url("../img/category-bg.png");
     display: inline-flex;
     margin: 20px;
     color: #fff;
