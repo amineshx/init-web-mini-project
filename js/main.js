@@ -283,7 +283,7 @@ function netact() {
 //log out 
 function deleteCookie() {
     document.cookie = "loggedInUser=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    window.location.href = "../sign-up.html";
+    window.location.href = "sign-up.html";
 }
 // changing name 
 function getCookie(name) {
