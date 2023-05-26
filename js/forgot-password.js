@@ -1,3 +1,4 @@
+alert("use the same email that u signed up with");
 function recovery(){
 
 const verfemail = document.getElementById("verfemail").value;
