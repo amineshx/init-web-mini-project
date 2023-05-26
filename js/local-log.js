@@ -12,8 +12,8 @@ function LoginUser() {
     });
 
     if(username == "amineshx" && password == "212131040802"){
-        window.location.href= "dashboard.html"
-        document.cookie = 'loggedInUser=' + encodeURIComponent(username) + '; SameSite=None; Secure';
+        window.location.href= "dashboard.html" ;
+      
     }else if (foundUser) {
       // User found, proceed with login logic
       alert('Login successful!');
