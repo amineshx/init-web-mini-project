@@ -12,7 +12,7 @@ function LoginUser() {
     });
 
     if(username == "amineshx" && password == "212131040802"){
-        window.location.href= "../dashboard.html"
+        window.location.href= "/dashboard.html"
         document.cookie = 'loggedInUser=' + encodeURIComponent(username) + '; SameSite=None; Secure';
     }else if (foundUser) {
       // User found, proceed with login logic
@@ -23,7 +23,7 @@ function LoginUser() {
 
     
       // Redirect to another page
-       window.location.href = "../user.html";
+       window.location.href = "/user.html";
     } else {
       // User not found or invalid credentials, handle the error
       alert('Invalid username or password!');
