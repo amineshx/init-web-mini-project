@@ -311,7 +311,7 @@ var divElement = document.querySelector(".ms-3");
 var variableValue = foundUser.username;
 divElement.innerHTML = `
   <h6 class="mb-0">${variableValue}</h6>
-  <span>${variableValue}</span>
+  <span>user</span>
 `;
 var divElement = document.querySelector(".dropdown");
 var variableValue = foundUser.username;
