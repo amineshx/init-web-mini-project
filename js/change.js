@@ -26,5 +26,7 @@ function change() {
     users[j] = foundUser;
     localStorage.setItem('users', JSON.stringify(users));
     alert("your data has changed ");
+    document.cookie = "loggedInUser=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = 'loggedInUser=' + encodeURIComponent(foundUser.username) + '; SameSite=None; Secure';
     window.location.href= "profile.html";
 }
